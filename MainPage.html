@@ -1,0 +1,545 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Main Page</title>
+    <link rel="stylesheet" href="css/Main.css">
+</head>
+
+<body>
+    <header class="header">
+        <section>
+            <div class="header-container">
+                <a href="MainPage.html" class="header-logo">
+                    <img src="icons/Logo.svg" alt="Logo">
+                </a>
+                <button class="header-profile-button">
+                    <img src="icons/Profile.svg" alt="Profile">
+                    <span class="header-profile-button-text">Login</span>
+                </button>
+            </div>
+        </section>
+    </header>
+
+
+    <main>
+        <section class="hero">
+            <div class="hero_container_right">
+                <section class="Accept_cryptocurrency_payments">
+                    <h1>Accept cryptocurrency payments for your business</h1>
+                    <p>Flat 0.3% fee per transaction worldwide</p>
+                    <button class="buttun_connect">Connect</button>
+                </section>
+            </div>
+            <div class="hero_container_left">
+                <section class="Coins_we_work_wit">
+                    <h2>Coins We Work With</h2>
+                    <p>We support leading cryptocurrencies chosen by the world: USDT and USDC — for stability. Expand
+                        your business opportunities with us.</p>
+                    <ul class="cripto_container">
+                        <li class="crypto_card">
+                            <div class="cripto_icon">
+                                <img src="icons/usdt.svg" alt="">
+                            </div>
+                            <div class="crypto_content">
+                                <h3>Tether USD</h3>
+                                <div class="price">
+                                    <h3>$1.00 USDT</h3>
+                                </div>
+                            </div>
+                        </li>
+
+                        <li class="crypto_card">
+                            <div class="cripto_icon">
+                                <img src="icons/usdc.svg" alt="">
+                            </div>
+                            <div class="crypto_content">
+                                <h3>USD Coin</h3>
+                                <div class="price">
+                                    <h3>$1.00 USDC</h3>
+                                </div>
+                            </div>
+                        </li>
+                    </ul>
+                </section>
+            </div>
+        </section>
+
+        <section class="How_ADPAY_Works">
+            <h1>How ADPAY Works</h1>
+            <div class="Create_Account_and_Accept_payments">
+                <h2>Create Account and Accept payments</h2>
+                <p>Create an account, connect your website or online store in a convenient way, and start accepting
+                    payments in USDT and USDC right away.</p>
+                <section class="HowItWorks">
+                    <table>
+                        <thead>
+                            <tr>
+                                <th>
+                                    <span class="th-content">
+                                        ID
+                                        <img src="icons/sort.svg" alt="sort">
+                                    </span>
+                                </th>
+
+                                <th>Sender Address</th>
+                                <th>
+                                    <span class="th-content">
+                                        Date/Time
+                                        <img src="icons/sort.svg" alt="sort">
+                                    </span>
+                                </th>
+                                <th>Hash</th>
+                                <th>
+                                    <span class="th-content">
+                                        Amount
+                                        <img src="icons/sort.svg" alt="sort">
+                                    </span>
+                                </th>
+                                <th>Status</th>
+                                <th>Receipt</th>
+                            </tr>
+                        </thead>
+
+                        <tbody>
+                            <tr>
+                                <td>WD002</td>
+                                <td>
+                                    <span class="num_Address_Hash">
+                                        0x1234...5678
+                                    </span>
+                                </td>
+                                <td>2025-10-11 15:12</td>
+                                <td>
+                                    <span class="num_Address_Hash">
+                                        0x1234...5678
+                                    </span>
+                                </td>
+                                <td>500 USD</td>
+                                <td>
+                                    <span class="Completed_desing">
+                                        Completed
+                                    </span>
+                                </td>
+                                <td><img class="qr_class" src="icons/qr.svg" alt=""></td>
+                            </tr>
+                        </tbody>
+
+
+                    </table>
+                </section>
+            </div>
+
+            <div class="Ready_API_Simple">
+                <section class="Ready_made_Modules">
+                    <div class="Ready_API_Simple_text">
+                        <h2>Ready-made Modules</h2>
+                        <p>Install plugins for WordPress, WooCommerce, WHMCS, XenForo and start accepting crypto in just
+                            a few minutes.</p>
+                    </div>
+                    <div class="window_Ready_API_Simple_content">
+                        <h3>Plugins</h3>
+                        <div class="Plugin_connected">
+                            <ul>
+                                <li>
+                                    <img src="icons/checkmark.svg" alt="checkmark">
+                                    <p>Plugin Connected</p>
+                                    <span class="platform_badge">WordPress</span>
+                                </li>
+                                <li>
+                                    <img src="icons/checkmark.svg" alt="checkmark">
+                                    <p>Plugin Connected</p>
+                                    <span class="platform_badge">WooCommerce</span>
+                                </li>
+                                <li>
+                                    <img src="icons/checkmark.svg" alt="checkmark">
+                                    <p>Plugin Connected</p>
+                                    <span class="platform_badge">WHMCS</span>
+                                </li>
+                            </ul>
+                        </div>
+
+                    </div>
+                </section>
+
+                <section class="API_Integration">
+                    <div class="Ready_API_Simple_text">
+                        <h2>API Integration</h2>
+                        <p>Create invoices, check transaction statuses, and enable notifications directly.</p>
+                    </div>
+                    <div class="window_Ready_API_Simple_content">
+
+                        <code class="REST_API">
+                            <h3>Request:</h3>
+                        </code>
+
+                        <code>GET /transactions/{id}/status</code>
+
+                        <code class="REST_API">
+                            <h3>Response:</h3>
+                        </code>
+                        <span>{</span>
+                        <br>
+                        <span class="REST_API_status">"status": "paid"</span>
+                        <br>
+                        <span>}</span>
+
+                    </div>
+                </section>
+
+
+                <section class="Simple_Payment_Form">
+                    <div class="Ready_API_Simple_text">
+                        <h2>Simple Payment Form</h2>
+                        <p>A fast and convenient way for your customers to pay for purchases.</p>
+                    </div>
+                    <div class="Simple_Payment_Form_content">
+
+                        <section class="Payment_Informatiom">
+                            <div class="adpay_navigation">
+                                <div class="adpay_text">
+                                    <h3>ADPAY</h3>
+                                    <h4>Payment Information</h4>
+                                </div>
+
+                                <div class="actions">
+                                    <img src="icons/menu.svg" class="btn-menu">
+                                    <img src="icons/cross.svg" class="btn-cross">
+                                </div>
+                            </div>
+
+                            <div class="payment-card">
+                                <div class="payment-info">
+                                    <div class="amount">$1,250.00 USDT</div>
+                                    <div class="usd">≈ $1,250.00 USD</div>
+                                    <div class="fee">Fee: $3.75 USDT (0.3%)</div>
+                                    <div class="date">Payment date: October 4, 2025</div>
+                                    <div class="time">Payment time: 14:32 UTC</div>
+                                </div>
+
+                                <div class="qr-section">
+                                    <div class="qr-placeholder"></div>
+                                    <div class="scan-label">Scan to Pay</div>
+                                </div>
+                            </div>
+
+                            <div class="qr_text">
+                                <p>Scan the QR code or send the payment directly to the address.</p>
+                            </div>
+
+
+                            <div class="Wallet_Address">
+                                <div class="Wallet_Address_content">
+                                    <span>Wallet Address:</span>
+                                    <span class="Wallet_Address_code">1A2bC3d4eF5gH67kLf8mN9oP0qRf1sT2u...</span>
+                                    <span>Copy</span>
+                                </div>
+                            </div>
+
+
+
+
+                            <div class="Payment_confirmed">
+                                <div class="Payment_confirmed_content">
+                                    <img src="icons/checkmark.svg" alt="checkmark">
+                                    <span>Payment confirmed</span>
+                                </div>
+                                <div class="Payment_confirmed_time">
+                                    <span>00:00</span>
+                                </div>
+                            </div>
+
+                            <div class="Accept_cryptocurrency">
+                                <p class="Accept_cryptocurrency_text">Accept cryptocurrency payments on your website.
+                                </p>
+                                <span class="Accept_cryptocurrency_link">Learn more</span>
+                            </div>
+
+
+
+
+
+
+                        </section>
+                    </div>
+                </section>
+
+            </div>
+        </section>
+
+
+        <section class="What_You_Get_With_Us">
+            <div class="What_You_Get_With_Us_header">
+                <h1>What You Get With Us</h1>
+            </div>
+            <div class="Increased_Your_Sales">
+                <ul>
+                    <li>
+                        <div class="im_cont">
+                            <img src="icons/increase.svg" alt="increase">
+                        </div>
+                        <div class="text_cont">
+                            <h3>Increased Your Sales</h3>
+                            <p>Crypto payments provide a modern and convenient way to pay, increasing the likelihood of
+                                purchase completion.</p>
+                        </div>
+                    </li>
+
+                    <li>
+                        <div class="im_cont">
+                            <img src="icons/percent.svg" alt="increase">
+                        </div>
+                        <div class="text_cont">
+                            <h3>Lowest Fees</h3>
+                            <p>All crypto payments are processed with a flat 0.3% fee — cheaper than bank transfers and
+                                especially beneficial for international operations.</p>
+                        </div>
+                    </li>
+
+                    <li>
+                        <div class="im_cont">
+                            <img src="icons/globus.svg" alt="increase">
+                        </div>
+                        <div class="text_cont">
+                            <h3>Global Payments Without Borders</h3>
+                            <p>Accept payments from customers worldwide in seconds. Suitable for small businesses,
+                                online stores, and large companies without volume restrictions.</p>
+                        </div>
+                    </li>
+
+                    <li>
+                        <div class="im_cont">
+                            <img src="icons/wallet.svg" alt="increase">
+                        </div>
+                        <div class="text_cont">
+                            <h3>Flexible Withdrawals</h3>
+                            <p>Receive payments in USDT, withdraw to fiat or cash via partner exchange services. For
+                                Moscow, cash delivery is available to your office or home.</p>
+                        </div>
+                    </li>
+
+                    <li>
+                        <div class="im_cont">
+                            <img src="icons/chart.svg" alt="increase">
+                        </div>
+                        <div class="text_cont">
+                            <h3>Auto-Withdrawals and Analytics</h3>
+                            <p>Withdraw funds easily and instantly from your account. Use built-in analytics to boost
+                                your profits.</p>
+                        </div>
+                    </li>
+
+                    <li>
+                        <div class="im_cont">
+                            <img src="icons/lightning.svg" alt="increase">
+                        </div>
+                        <div class="text_cont">
+                            <h3>Easy Connection and Integration</h3>
+                            <p>Start accepting crypto payments as an individual without a legal entity. Ready-made APIs
+                                and modules are available for websites and applications..</p>
+                        </div>
+                    </li>
+
+                </ul>
+                <div class="Increased_Your_Sales_buttons">
+                    <button class="buttun_connect">Connect</button>
+                    <button class="buttun_contact">Contact Us</button>
+                </div>
+
+            </div>
+        </section>
+
+        <section class="FAQ">
+            <div class="FAQ_header">
+                <h1>What You Get With Us</h1>
+            </div>
+
+            <div class="FAQ_accordion">
+                <div class="FAQ_item">
+                    <button class="FAQ_question">
+                        How fast can I connect the service?
+                        <span class="faq_icon"><img src="icons/arrow.svg" alt="arrow"></span>
+                    </button>
+
+                    <div class="FAQ_answer">
+                        <p>You can connect in under 5 minutes — just install the plugin and activate it.</p>
+                    </div>
+                </div>
+
+                <div class="FAQ_item">
+                    <button class="FAQ_question">
+                        Do I need a legal entity to connect?
+                        <span class="faq_icon"><img src="icons/arrow.svg" alt="arrow"></span>
+                    </button>
+
+                    <div class="FAQ_answer">
+                        <p>You can connect in under 5 minutes — just install the plugin and activate it.</p>
+                    </div>
+                </div>
+
+                <div class="FAQ_item">
+                    <button class="FAQ_question">
+                        What are the fees?
+                        <span class="faq_icon"><img src="icons/arrow.svg" alt="arrow"></span>
+                    </button>
+
+                    <div class="FAQ_answer">
+                        <p>You can connect in under 5 minutes — just install the plugin and activate it.</p>
+                    </div>
+                </div>
+
+                <div class="FAQ_item">
+                    <button class="FAQ_question">
+                        In which currency can I receive payouts?
+                        <span class="faq_icon"><img src="icons/arrow.svg" alt="arrow"></span>
+                    </button>
+
+                    <div class="FAQ_answer">
+                        <p>You can connect in under 5 minutes — just install the plugin and activate it.</p>
+                    </div>
+                </div>
+
+                <div class="FAQ_item">
+                    <button class="FAQ_question">
+                        How does fraud protection work?
+                        <span class="faq_icon"><img src="icons/arrow.svg" alt="arrow"></span>
+                    </button>
+
+                    <div class="FAQ_answer">
+                        <p>You can connect in under 5 minutes — just install the plugin and activate it.</p>
+                    </div>
+                </div>
+
+                <div class="FAQ_item">
+                    <button class="FAQ_question">
+                        Is it suitable for small businesses?
+                        <span class="faq_icon"><img src="icons/arrow.svg" alt="arrow"></span>
+                    </button>
+
+                    <div class="FAQ_answer">
+                        <p>You can connect in under 5 minutes — just install the plugin and activate it.</p>
+                    </div>
+                </div>
+
+
+
+        </section>
+
+
+    </main>
+
+    <footer class="footer">
+        <section class="footer_content">
+            <div class="footer_content_grid">
+                <div class="adpay_connect">
+                    <h2>ADPAY</h2>
+                    <p>Accept cryptocurrency payments with the lowest fees.</p>
+                    <button class="buttun_connect">Connect</button>
+                </div>
+
+                <div class="contact_us">
+                    <h3>Contact Us</h3>
+                    <div class="contact_content">
+                        <div class="contact">
+                            <img src="icons/mail.svg" alt="mail">
+                            <p>support@adpay.com</p>
+                        </div>
+                        <div class="contact">
+                            <img src="icons/telegram.svg" alt="telegram">
+                            <p>@adpay_support</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="contact_us">
+                    <h3>Contact Us Directly</h3>
+                    <form class="contact-form">
+                        <input type="text" placeholder="Name">
+                        <div class="custom-select">
+                            <select>
+                                <option value="" disabled selected>Contact Method</option>
+                                <option value="email">Email</option>
+                                <option value="telegram">Telegram</option>
+                            </select>
+                            <span class="select-arrow">
+                                <img src="icons/arrow.svg" alt="arrow">
+                            </span>
+                        </div>
+
+                        <input type="text" placeholder="Contact Info">
+                        <input type="text" class="Message" placeholder="Message">
+                        <button class="submit" type="submit">Submit</button>
+                    </form>
+                </div>
+                <div class="follow_us">
+                    <h3>Follow_Us</h3>
+                    <div class="follow_content">
+                        <a href="/">
+                            <img src="icons/instagram.svg" alt="instagram">
+                        </a>
+                        <a href="/">
+                            <img src="icons/linkedin.svg" alt="instagram">
+                        </a>
+
+                        <a href="/">
+                            <img src="icons/X.svg" alt="instagram">
+                        </a>
+                        <a href="/">
+                            <img src="icons/facebook.svg" alt="instagram">
+                        </a>
+                        <a href="/">
+                            <img src="icons/youtube.svg" alt="instagram">
+                        </a>
+
+                    </div>
+
+                </div>
+            </div>
+            <div class="footer_content_information">
+                <div class="copyrigh">
+                    <p>© 2025 ADPAY. All rights reserved.</p>
+                </div>
+                <div class="document">
+                    <a href="/">Privacy Policy</a>
+                    <a href="/">Terms of Service</a>
+                    <a href="/">AML</a>
+                </div>
+            </div>
+        </section>
+
+
+    </footer>
+
+    <script>
+        document.querySelectorAll('.FAQ_question').forEach(btn => {
+            btn.addEventListener('click', () => {
+                const item = btn.parentElement;
+                const answer = item.querySelector('.FAQ_answer');
+                const isActive = item.classList.contains('active');
+
+
+                document.querySelectorAll('.FAQ_item').forEach(el => {
+                    el.classList.remove('active');
+                    const ans = el.querySelector('.FAQ_answer');
+                    ans.style.height = '0';
+                    ans.style.opacity = '0';
+                });
+
+
+                if (!isActive) {
+                    item.classList.add('active');
+
+                    answer.style.opacity = '1';
+
+                    requestAnimationFrame(() => {
+                        answer.style.height = answer.scrollHeight + 'px';
+                    });
+                }
+            });
+        });
+    </script>
+</body>
+
+</html>
